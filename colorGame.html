@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Game</title>
+    <link rel="stylesheet" href="../css/colorGame.css">
+</head>
+<body>
+<div class="container">
+ <nav class="navbar">
+     <span class="open-slide">
+         <a href="#" onclick="openSlideMenu()">
+             <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="#fff" stroke-width= "5"/>
+                <path d="M0,14 30,14" stroke="#fff" stroke-width= "5"/>
+                <path d="M0,23 30,23" stroke="#fff" stroke-width= "5"/>
+             </svg>
+         </a>
+     </span>
+     <ul class="navbar-nav">
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Contact</a></li>
+     </ul>
+ </nav>
+ <div id="side-menu" class="side-nav">
+     <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+     <a href="#">Home</a>
+     <a href="#">About</a>
+     <a href="#">Contact</a>
+ </div>
+ <div id="main">
+      <h1>The Great
+          <br> 
+          <span id="colorDisplay">RGB</span>
+          <br>
+          Colour guessing Game
+      </h1>
+  </div>
+  
+  <div id="stripe">
+     <button id="reset">New Colours</button>
+     <span id="message"></span>
+     <button class="mode">Easy</button>
+     <button class="mode selected">Hard</button>
+  </div>
+   <div id="container">
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+   </div>
+  
+   
+   <!---Footer --> 
+    <footer>
+        <p>amac/Hub &copy; 2018</p>
+    </footer>
+
+  </div>
+  <script src="../js/colorGame.js"></script>  
+</body>
+</html>
