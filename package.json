@@ -9,6 +9,6 @@
 	"author": "Alpha Mackie",
 	"license": "MIT",
 	"dependencies": {
-		"node-sass": "^4.9.2"
+		"node-sass": "^8.0.0"
 	}
 }
